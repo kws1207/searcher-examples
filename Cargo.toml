@@ -6,3 +6,6 @@ members = [
     "searcher_client",
 ]
 resolver = "2"
+
+[patch.crates-io]
+solana_rbpf = { git = "https://github.com/solana-labs/rbpf", tag = "v0.8.0" }
